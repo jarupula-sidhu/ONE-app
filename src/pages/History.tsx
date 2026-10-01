@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CheckCircle2, XCircle, Clock, Zap, Award, BarChart3, ChevronRight } from 'lucide-react';
+import { CheckCircle2, XCircle, Zap, Award, BarChart3, ChevronRight } from 'lucide-react';
 import { DailyGoal } from '../types';
 import { StorageService } from '../services/storage';
 import { formatFriendlyDate, formatTimeMinutes } from '../utils/date';

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Play, CheckCircle2, Edit3, Sparkles, Clock, Target } from 'lucide-react';
+import { Play, CheckCircle2, Edit3, Sparkles} from 'lucide-react';
 import { DailyGoal } from '../types';
 import { StorageService } from '../services/storage';
 import { getLocalDateString, formatFriendlyDate, formatTimeMinutes } from '../utils/date';

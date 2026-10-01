@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Download, Upload, Trash2, Bell, Sun, Volume2, ShieldCheck, AlertTriangle } from 'lucide-react';
+import { Download, Upload, Trash2, Bell, Volume2, ShieldCheck, AlertTriangle } from 'lucide-react';
 import { UserSettings, AppDataExport } from '../types';
 import { StorageService } from '../services/storage';
 
